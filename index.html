@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Page metadata and links -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title doubles as a simple "logo" in the browser tab per requirement -->
+    <title>Dependency Vulnerability Dashboard</title>
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+    <!-- Link to minimal stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header styled to match the provided reference images -->
+    <header class="page-header">
+      <h1 class="headline">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <img src="images/OpenmrsLogo.png" alt="OpenMRS Logo" class="logo"
+            style="width: 100px; height: 100px; border-radius: 50%; border: 2px none #0a7d47; padding: 2px;"
+            >
+            <path d="M7 12l3 3 7-7" stroke="#0a7d47" stroke-width="2" fill="none"></path>
+          </svg>
+        </span>
+        OpenMRS Dependency Vulnerability Report
+      </h1>
+      <p class="subtext">
+        This is a summary of known security vulnerabilities detected across OpenMRS modules by automated dependency scanning.
+        Each module lists its vulnerable dependencies, severity levels, and recommended fix versions to help
+        maintainers prioritize upgrades.
+      </p>
+      <div class="sort-controls">
+        <label for="repo-sort">Sort repositories:</label>
+        <select id="repo-sort">
+          <option value="severity">Repository Severity (desc)</option>
+          <option value="highestCveScore">Highest CVE Score (desc)</option>
+          <option value="name">Repository Name</option>
+        </select>
+      </div>
+    </header>
+
+    <!-- Main content container where repositories will be injected -->
+    <section class="content-panel">
+      <main id="dashboard">
+        <!-- JS will render collapsible sections for each repository here, 
+         so code here is from javaScript-->
+      </main>
+    </section>
+
+    <!-- Script that loads JSON and builds the UI -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
