@@ -1,0 +1,182 @@
+/* ===== Base Reset & Typography ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  background: #f4f4f4;
+  color: #161616;
+  min-height: 100vh;
+}
+
+/* ===== Top Dark Header Bar ===== */
+.header-bar {
+  background: #161616;
+  height: 48px;
+  width: 100%;
+}
+
+/* ===== Dashboard Container ===== */
+#app {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem 2rem 4rem;
+}
+
+/* ===== Dashboard Header ===== */
+.dashboard-header {
+  margin-bottom: 2rem;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #161616;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+}
+
+.title-accent {
+  display: block;
+  width: 90px;
+  height: 7px;
+  background: #148b7b;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+}
+
+.dashboard-subtitle {
+  font-size: 1rem;
+  color: #525252;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+/* ===== Project-Level Accordion ===== */
+.project-accordion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.project-accordion-item {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 0;
+  padding: 1rem;
+}
+
+/* Remove default padding so the dependency table can take full width */
+.project-accordion-item::part(content) {
+  padding: 0;
+}
+
+.project-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 500;
+  font-size: 0.9375rem;
+}
+
+.dep-table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.dep-table cds-table-cell {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+/* ===== CVE Details Wrapper ===== */
+.cve-details-wrapper {
+  padding: 1rem 0 1.25rem;
+  overflow-x: auto;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* ===== CVE Table ===== */
+.cve-table {
+  width: 100%;
+  font-size: 0.8125rem;
+  background: #ffffff;
+  table-layout: fixed;
+}
+
+/* CVE table column widths */
+.cve-table cds-table-header-cell:nth-child(1),
+.cve-table cds-table-cell:nth-child(1) {
+  width: 14%;
+} /* CVE ID */
+.cve-table cds-table-header-cell:nth-child(2),
+.cve-table cds-table-cell:nth-child(2) {
+  width: 9%;
+} /* Severity */
+.cve-table cds-table-header-cell:nth-child(3),
+.cve-table cds-table-cell:nth-child(3) {
+  width: 7%;
+} /* Score */
+.cve-table cds-table-header-cell:nth-child(4),
+.cve-table cds-table-cell:nth-child(4) {
+  width: 35%;
+} /* Description */
+.cve-table cds-table-header-cell:nth-child(5),
+.cve-table cds-table-cell:nth-child(5) {
+  width: 12%;
+} /* Affected Versions */
+.cve-table cds-table-header-cell:nth-child(6),
+.cve-table cds-table-cell:nth-child(6) {
+  width: 10%;
+} /* Fixed In */
+.cve-table cds-table-header-cell:nth-child(7),
+.cve-table cds-table-cell:nth-child(7) {
+  width: 13%;
+} /* CWE */
+
+cds-table-header-row cds-table-header-cell {
+  font-weight: 600;
+  font-size: 0.8125rem;
+  color: #161616;
+  background: #e0e0e0;
+  padding: 0.75rem 1rem;
+}
+
+.cve-table cds-table-cell {
+  padding: 0.75rem 1rem;
+}
+
+.cve-id-cell {
+  font-weight: 500;
+  color: #0f62fe;
+  white-space: nowrap;
+}
+
+/* ===== Severity Tag Colors ===== */
+cds-tag[type="red"] {
+  --cds-tag-background-red: #e76f6f;
+  --cds-tag-color-red: #4b0508;
+}
+
+cds-tag[type="magenta"] {
+  --cds-tag-background-magenta: #eaaaaa;
+  --cds-tag-color-magenta: #861c4a;
+}
+
+cds-tag[type="yellow"] {
+  --cds-tag-background-gray: #f5cf47;
+  --cds-tag-color-gray: #7f4d03; /*as carbon doesn't has native yellow so gray is overridden*/
+}
+
+cds-tag[type="teal"] {
+  --cds-tag-background-teal: #d9fbfb;
+  --cds-tag-color-teal: #005d5d;
+}
