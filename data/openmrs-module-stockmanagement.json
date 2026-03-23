@@ -1,0 +1,745 @@
+{
+    "reportSchema": "1.1",
+    "scanInfo": {
+        "engineVersion": "12.2.0",
+        "dataSource": [
+{
+                "name": "NVD API Last Checked",
+                "timestamp": "2026-03-22T11:45:39Z"
+            }
+,{
+                "name": "NVD API Last Modified",
+                "timestamp": "2026-03-22T10:16:07Z"
+            }
+,{
+                "name": "NVD Cache Last Checked",
+                "timestamp": "2026-03-22T11:45:39Z"
+            }
+,{
+                "name": "NVD Cache Last Modified",
+                "timestamp": "2026-03-22T10:16:07Z"
+            }
+        ]
+
+
+    },
+    "projectInfo": {
+        "name": "openmrs-module-stockmanagement",
+        "reportDate": "2026-03-23T08:23:06.293244436Z",
+        "credits": {
+            "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
+            "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+            "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
+            "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+        }
+    },
+    "dependencies": [
+{
+            "isVirtual": false,
+            "fileName": "activation-1.1.1.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/stockmanagement-3.1.0-SNAPSHOT\/lib\/activation-1.1.1.jar"
+,"md5": "46a37512971d8eca81c3fcf245bf07d2",
+            "sha1": "485de3a253e23f645037828c07f1d7f1af40763a",
+            "sha256": "ae475120e9fcd99b4b00b38329bd61cdc5eb754eee03fe66c01f50e137724f99","description": "The JavaBeans(TM) Activation Framework is used by the JavaMail(TM) API to manage MIME data","license": "COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0: https:\/\/glassfish.dev.java.net\/public\/CDDLv1.0.html"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "activation"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "central",
+                            "name": "groupid",
+                            "value": "javax.activation"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "central",
+                            "name": "groupid",
+                            "value": "one.gfw"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "activation"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "activation"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "activation"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "javax"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "javax"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "sun"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar (hint)",
+                            "name": "package name",
+                            "value": "oracle"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "extension-name",
+                            "value": "javax.activation"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "Manifest",
+                            "name": "Implementation-Vendor",
+                            "value": "Sun Microsystems, Inc."
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "Implementation-Vendor-Id",
+                            "value": "com.sun"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "specification-vendor",
+                            "value": "Sun Microsystems, Inc."
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "activation"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "oneingfw@gfw.one"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "OneInGfw"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "OneInGfw"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "javax.activation"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "one.gfw"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "JavaBeans(TM) Activation Framework"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/java.sun.com\/javase\/technologies\/desktop\/javabeans\/jaf\/index.jsp"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "oneingfw\/wtfbd"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "activation"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "activation"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "activation"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "activation"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "javax"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "extension-name",
+                            "value": "javax.activation"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "specification-title",
+                            "value": "JavaBeans(TM) Activation Framework Specification"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "activation"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "oneingfw@gfw.one"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "OneInGfw"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "OneInGfw"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "javax.activation"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "one.gfw"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "JavaBeans(TM) Activation Framework"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/java.sun.com\/javase\/technologies\/desktop\/javabeans\/jaf\/index.jsp"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "oneingfw\/wtfbd"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "central",
+                        "name": "version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "Manifest",
+                        "name": "Implementation-Version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "1.1.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/javax.activation\/activation@1.1.1"
+,"confidence": "HIGH"                    }
+,                    {
+                        "id": "pkg:maven\/one.gfw\/activation@1.1.1"
+,"confidence": "HIGH"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:oracle:java_se:1.1.1:*:*:*:*:*:*:*"
+,"confidence": "LOW"                }
+            ]
+        },{
+            "isVirtual": false,
+            "fileName": "stockmanagement-3.1.0-SNAPSHOT.jar (shaded: org.openmrs.module:stockmanagement-omod:3.1.0-SNAPSHOT)",
+            "filePath": "\/github\/workspace\/omod\/target\/stockmanagement-3.1.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/stockmanagement-omod\/pom.xml"
+,"md5": "8a8cc18cdf93426cb6f18a9c99f2ecec",
+            "sha1": "3cb1ed1cbfb8865d05bd5a81081a30169215e57e",
+            "sha256": "fe11a2c46c400bdc9a7478a9cc69f41e1ad2e2bfc530f8a4d6f9c0d81d824595","description": "Omod submodule for Stock Management"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "stockmanagement-omod"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Stock Management OMOD"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "stockmanagement"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "stockmanagement-omod"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Stock Management OMOD"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "stockmanagement"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "3.1.0-SNAPSHOT"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/org.openmrs.module\/stockmanagement-omod@3.1.0-SNAPSHOT"
+,"confidence": "HIGH"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:openmrs:openmrs:3.1.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.1.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+        },{
+            "isVirtual": false,
+            "fileName": "stockmanagement-3.1.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/stockmanagement-3.1.0-SNAPSHOT.jar"
+,"md5": "886847c3152bd1b460922043610b8072",
+            "sha1": "3b33957822b131c607631349aa36dd2bd474e5dd",
+            "sha256": "0f54a64363c89dd65b5fa6ed88ef029329f5046025d9106cbb097cc4bcbc6843"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "stockmanagement"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "stockmanagement"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "stockmanagement"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "stockmanagement"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "web"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "stockmanagement"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.1.0.snapshot"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "LOW",
+                        "source": "Manifest",
+                        "name": "build-jdk-spec",
+                        "value": "1.8"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "Manifest",
+                        "name": "java-version",
+                        "value": "8"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "stockmanagement-api-3.1.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/api\/target\/stockmanagement-api-3.1.0-SNAPSHOT.jar"
+,"md5": "776dab776d727d53d4a6655d65e22634",
+            "sha1": "fcfb768fa1ebe85d6a70681538b8abc980505f02",
+            "sha256": "146d1669d814964893f12c0dc2456c0d8a48ad819e2b6de7841e9da7e1be20d5","description": "API project for Stock Management"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "stockmanagement-api-3.1.0-SNAPSHOT.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/stockmanagement-3.1.0-SNAPSHOT\/lib\/stockmanagement-api-3.1.0-SNAPSHOT.jar"
+,"sha256": "146d1669d814964893f12c0dc2456c0d8a48ad819e2b6de7841e9da7e1be20d5",
+                    "sha1": "fcfb768fa1ebe85d6a70681538b8abc980505f02",
+                    "md5": "776dab776d727d53d4a6655d65e22634"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "stockmanagement-api"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "api"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "stockmanagement"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "stockmanagement-api"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Stock Management API"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "stockmanagement"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "stockmanagement-api"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "api"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "stockmanagement"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "stockmanagement-api"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Stock Management API"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "stockmanagement"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "3.1.0-SNAPSHOT"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/org.openmrs.module\/stockmanagement-api@3.1.0-SNAPSHOT"
+,"confidence": "HIGH"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:openmrs:openmrs:3.1.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.1.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+        }    ]
+}
